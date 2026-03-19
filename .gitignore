@@ -1,0 +1,23 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.npmrc
+.snowflake/
+.v0-trash/
+.vercel/
+next.user-config.*
+
+# Environment variables
+.env
+.env*.local
+
+# Common ignores
+node_modules/
+.next/
+.DS_Store
+/lib/generated/prisma
+
+# 로컬 SQLite 미사용(앱은 Supabase만). 실수로 생기면 무시
+dev.db
+dev.db-journal
